@@ -81,9 +81,7 @@ namespace WindowsFormsAppES1
                 MessageBox.Show(String.Format("ファイルがない:", str1), "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             //f.Show();
-            Application.Run(f);  // 別プロセスでフォームを開くにすると　応答なしにならなくなる
-
-
+            Application.Run(f);  // 別プロセスでフォームを開くにすると　応答なしを防止できる
         }
 
 
