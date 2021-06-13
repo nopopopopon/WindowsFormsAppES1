@@ -48,7 +48,7 @@ namespace WindowsFormsAppES1
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox3);
             this.Name = "Form3";
-            this.Text = "Form3A";
+            this.Text = "SUJIsub";
             this.Activated += new System.EventHandler(this.Form3_Activated);
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
